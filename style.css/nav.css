@@ -1,0 +1,30 @@
+header{
+    background-color: lightskyblue;
+padding: 10px 0;
+}
+nav ul{
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+
+}
+nav ul li {
+    text-align: center;
+    margin: 15px;
+    gap: 10px;
+    list-style: none;
+
+}
+nav ul li a{
+     text-decoration: none;
+text-transform: uppercase;
+text-shadow: 5px 6px 8px salmon;
+color: black;
+    transition: 0.3s;
+    padding: 10px 0;
+
+}
+nav ul li a:hover{
+    background-color: cornsilk;
+    border-radius: 6px;
+}
